@@ -74,5 +74,5 @@ done
 cp /root/svt/openshift_scalability/config/golang/cluster-limits-pods-per-namespace.yaml.bak /root/svt/openshift_scalability/config/golang/cluster-limits-pods-per-namespace.yaml
 
 # Delete the namespace
-oc delete project clusterproject0
+#oc delete project --wait=true clusterproject0
 
